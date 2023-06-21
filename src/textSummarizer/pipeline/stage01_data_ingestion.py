@@ -1,8 +1,5 @@
-import urllib.request as request
-import zipfile
 from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.components.data_ingestion import DataIngestion
-from textSummarizer.logging import logger
 
 class DataIngestionTrainingPipeline(object):
     def __init__(self):
